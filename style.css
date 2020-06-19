@@ -1,0 +1,129 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.top {
+    margin: 0 auto;
+    width: 600px;
+    text-align: center;
+}
+
+a.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 2em;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.button:hover {
+    background-color: #2A632C;
+}
+
+input.number-input {
+    border-radius: 2em;
+    border:3px #4CAF50 solid;
+    width: 3em;
+    text-align: center;
+}
+
+input.number-input:focus {
+    outline: none;
+}
+
+div#results {
+    margin-top:30px;
+}
+
+div.number-wrapper {
+    width: 600px;
+    margin: 0 auto;
+    font-size: 50px;
+    font-weight: bold;
+    color: #4CAF50;
+    text-align: center;
+}
+
+div.numicon-1 {
+    background-color: #f8ae4c;
+}
+
+div.numicon-2 {
+    background-color: #a9bae1;
+}
+
+div.numicon-3 {
+    background-color: #ffed00;
+}
+
+div.numicon-4 {
+    background-color: #b3d38d;
+}
+
+div.numicon-5 {
+    background-color: #e63027;
+}
+
+div.numicon-6 {
+    background-color: #00abc5;
+}
+
+div.numicon-7 {
+    background-color: #f39aa4;
+}
+
+div.numicon-8 {
+    background-color: #009e59;
+}
+
+div.numicon-9 {
+    background-color: #674997;
+}
+
+div.numicon-10 {
+    background-color: #006cb5;
+}
+
+div.numicon-area {
+    text-align: center;
+}
+
+div.numicon-wrapper {
+    width: 80px;
+    font-size: 0px;
+    margin: 40px;
+    display: inline-block;
+}
+
+div.numicon-box {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+div.numicon-box-blank {
+    background-color: transparent !important;
+}
+
+div.numicon-box-inner {
+    margin: 5px;
+}
+
+div.numicon-circle {
+    height: 30px;
+    width: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block;}
+}
